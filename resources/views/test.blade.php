@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
 <form action="{{ route('test-store') }}" method="POST">
